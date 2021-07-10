@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+}
+
+#css-zen-garden {
+  background-color: #282A35;
+  padding-bottom: 4rem;
+}
+
+.intro header {
+  background-color: #fff;
+  padding: 20px 0px;
+  text-align: center;
+  color: black;
+}
+.intro header h1 {
+  font-size: 3rem;
+}
+.intro header h2 {
+  font-size: 1.5rem;
+}
+.intro header h2 abbr {
+  text-decoration: none;
+}
+
+.summary {
+  color: #fff;
+  text-align: center;
+}
+.summary abbr {
+  text-decoration: none;
+}
+.summary a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.summary a:hover {
+  text-decoration: none;
+  color: #635f5f;
+}
+
+.preamble, .main {
+  background-color: #E7E9EB;
+  position: relative;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  border-radius: 15px;
+}
+.preamble p, .main p {
+  background-color: #fff;
+  padding: 10px 20px;
+  margin: 0px;
+  border-left: 4px solid #ff8928;
+}
+.preamble p abbr, .main p abbr {
+  font-weight: bold;
+  text-decoration: none;
+}
+.preamble p a, .main p a {
+  color: #ff8928;
+  text-decoration: none;
+}
+.preamble p a:hover, .main p a:hover {
+  text-decoration: none;
+  color: #635f5f;
+}
+.preamble footer a, .main footer a {
+  margin-top: 20px;
+  display: inline-block;
+  width: 19%;
+  border-radius: 10rem;
+  border: 1px solid #ff8928;
+  color: black;
+  background-color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  text-decoration: none;
+}
+.preamble footer a:hover, .main footer a:hover {
+  color: #fff;
+  background-color: #ff8928;
+  text-decoration: none;
+}
+
+.sidebar {
+  position: inherit;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.wrapper {
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 15rem;
+  height: auto;
+  background-color: #fff;
+  margin-right: 0px;
+  margin-left: 0px;
+  line-height: 1.42857143;
+  justify-content: space-between;
+}
+.wrapper div {
+  font-size: 1.5rem;
+  position: relative;
+  padding: 0px 20px;
+  max-width: 25rem;
+  background-color: #fff;
+}
+
+.design-selection nav ul li, .design-archives nav ul li,
+.zen-resources ul li {
+  padding-right: 1rem;
+}
+.design-selection nav ul li a, .design-archives nav ul li a,
+.zen-resources ul li a {
+  color: black;
+  text-decoration: none;
+  border-radius: 10rem;
+  border-right: 4px solid #ff8928;
+  padding: 0px 0.2rem;
+}
+.design-selection nav ul li a abbr, .design-archives nav ul li a abbr,
+.zen-resources ul li a abbr {
+  text-decoration: none;
+}
+
+.design-selection nav ul li a:hover, .design-archives nav ul li a:hover,
+.zen-resources ul li a:hover {
+  color: #fff;
+  background-color: #ff8928;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
